@@ -1,0 +1,85 @@
+
+body {
+ background-color: black !important;
+}
+
+.navbar-brand {
+    padding-left: 3%;
+}
+
+.collapse {
+    padding-right: 3%
+}
+
+.nav-item {
+    padding-left: 30px;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: gray !important;
+    border-color: black !important;
+}
+
+.btn-primary:hover {
+    background-color: lightgray !important;
+}
+
+.cardContainer {
+    margin-bottom: 30px !important;
+    min-width: 250px;
+}
+.row {
+    margin: 50px !important;
+
+}
+
+.photo {
+    width: 300px;
+    margin-left: 6%;
+    align: left;
+}
+
+#images {
+    display: inline-block;
+    padding-right: 2%
+}
+
+
+#aboutContainer {
+    background-color: black !important;
+    width: 80% !important;
+    margin: auto !important;
+    color: white;
+}
+
+#aboutTitle {
+    margin-top: 10%;
+}
+
+.w3-opacity,.w3-hover-opacity:hover{
+    opacity:0.30
+}
+.w3-opacity-off,.w3-hover-opacity-off:hover{
+    opacity:1
+}
+ .w3-opacity-max{
+    opacity:0.25
+}
+.w3-opacity-min{
+    opacity:0.75
+}
+
+.cardColor {
+    background-color: rgb(39, 39, 39) !important;
+    color: white;
+}
+
+a:link, a:visited {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(95, 95, 95) !important;
+}
+
