@@ -47,14 +47,12 @@ body {
 
 #aboutContainer {
     background-color: black !important;
-    width: 80% !important;
+    max-width: 80% !important;
     margin: auto !important;
     color: white;
 }
 
-#aboutTitle {
-    margin-top: 10%;
-}
+
 
 .w3-opacity,.w3-hover-opacity:hover{
     opacity:0.30
@@ -83,3 +81,19 @@ a:hover {
     color:rgb(95, 95, 95) !important;
 }
 
+#csContainer {
+    max-width: 80%;
+}
+
+#csCard {
+    display: flex;
+    align-items: center;
+}
+
+#card-img {
+    max-width: 550px
+}
+
+#aboutTitle {
+    align-items: center;
+}
