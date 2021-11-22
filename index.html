@@ -51,7 +51,7 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <p class="card-text"><img src="images/ux-design-text.jpg" alt="..." style="width: 100%; margin-bottom: 20px; padding-top: 10%"><br>Nunc sed blandit libero volutpat sed cras ornare arcu dui. Sed arcu non odio euismod lacinia at quis. In nibh mauris cursus mattis molestie a. Sit amet consectetur adipiscing elit ut aliquam purus sit. Aliquet enim tortor at auctor.</p>
+        <p class="card-text"><img src="images/UX-DESIGN-text.jpg" alt="..." style="width: 100%; margin-bottom: 20px; padding-top: 10%"><br>Nunc sed blandit libero volutpat sed cras ornare arcu dui. Sed arcu non odio euismod lacinia at quis. In nibh mauris cursus mattis molestie a. Sit amet consectetur adipiscing elit ut aliquam purus sit. Aliquet enim tortor at auctor.</p>
         <p>Scelerisque viverra mauris in aliquam sem. Fermentum iaculis eu non diam phasellus vestibulum lorem. Quisque egestas diam in arcu cursus euismod quis. </p>
 
         <a class="btn btn-primary btn" role="button" data-toggle="modal" id="myBtn" data-target="#Contact">Contact Me</a>
@@ -140,18 +140,22 @@
 <div id="myModal" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
+  <div id="modal-content">
     <span class="close" >&times;</span>
-    <p><b>Contact Me</b></p>
+    <p style="font-size: 1.4em;">Contact Me</p>
 
-      <label >Name</label>
-      <input type="text">
-      <label >Email</label>
-      <input type="email">
-      <label >Phone</label>
-      <input type="number">
-      <label >Comments</label>
-      <input type="text">
+    <form >
+       <label >Name</label><br>
+      <input type="text" size="57px" ><br>
+      <label id="form">Email</label><br>
+      <input type="email" size="57px"><br>
+      <label id="form">Phone</label><br>
+      <input type="text" size="57px"><br>
+      <label id="form">Comments</label><br>
+      <input type="text" size="57px">
+    </form> 
+
+    <a class="btn btn-primary btn" id="contactButton" >Submit</a>
 
   </div>
 
